@@ -36,9 +36,9 @@ def app_dir():
 
 
 # ===================== 业务配置 =====================
-DEFAULT_IP = "10.241.110.111"
+DEFAULT_IP = "255.255.255.0"
 DEFAULT_PORT = "8080"
-DEFAULT_USER = "HappyStart"
+DEFAULT_USER = "username"
 DEFAULT_PASS = "12345678"
 WAIT_BETWEEN = 3
 RETRY_TIMES = 3
