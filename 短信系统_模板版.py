@@ -40,9 +40,9 @@ def app_dir():
 CFG_PATH = os.path.join(app_dir(), "gateway_config.json")
 
 DEFAULT_CFG = {
-    "ip": "10.241.110.111",
+    "ip": "255.255.255.0",
     "port": "8080",
-    "user": "HappyStart",
+    "user": "username",
     "pass": "12345678",
     "recv_dir": app_dir(),
 }
