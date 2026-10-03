@@ -1,0 +1,7 @@
+﻿# 运行时依赖（运行 短信系统.py 需要）
+requests>=2.31.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# 打包用（只在重新生成 exe 时需要，运行 exe 不需要）
+pyinstaller>=6.0.0
