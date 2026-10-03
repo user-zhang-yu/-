@@ -512,7 +512,7 @@ class App:
                                  relief="flat", bg=PANEL, fg=TEXT,
                                  padx=10, pady=8, insertbackground=ACCENT, bd=0)
         self.batch_tpl.pack(fill="x")
-        self.batch_tpl.insert("1.0", "【电子协会】恭喜{姓名}同学被正式录取，学号{学号}，期待你的到来！")
+        self.batch_tpl.insert("1.0", "【****】恭喜{姓名}同学被正式录取，学号{学号}，期待你的到来！")
 
         # 预览 + 发送
         c3 = Card(parent, "预览与发送", accent=SUCCESS)
